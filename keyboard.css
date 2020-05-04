@@ -42,6 +42,7 @@
   border-radius: 50px;
   width: 70%;
   margin : 0 auto;
+	text-align: center;
 }
 .back2 {
   padding : 10px 10px;
@@ -81,6 +82,10 @@
   width: 25px;
   padding : auto auto;
 }
+.align {
+	position: relative;
+	top: 10px;
+}
 
 body {
   line-height: 1.5
@@ -89,9 +94,11 @@ body {
 #delete {
   width: 82px;
     padding: 5px 20px 5px 20px;
+		text-align: right;
 }
 #tab {
   width: 60px;
+	text-align: left;
 }
 #bs {
   width: 32px;
